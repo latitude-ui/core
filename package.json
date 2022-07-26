@@ -49,5 +49,9 @@
     "dist"
   ],
   "homepage": "https://github.com/ibrahim855/dummy-library#readme",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "react":"18.2.0",
+    "react-dom":"18.2.0"
+  }
 }
