@@ -1,6 +1,6 @@
 {
   "name": "dummy-lib-ibraqr",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "simple ui components for React",
   "scripts": {
     "rollup": "rollup -c",
