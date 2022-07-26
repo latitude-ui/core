@@ -1,13 +1,13 @@
 {
-  "name": "something",
+  "name": "dummy-lib-ibraqr",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple ui components for React",
   "scripts": {
     "rollup": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ui", "react"],
+  "author": "Ibrahim Qronfli",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -24,5 +24,6 @@
   "files": [
     "dist"
   ],
+  "homepage": "https://github.com/ibrahim855/dummy-library#readme",
   "types": "dist/index.d.ts"
 }
