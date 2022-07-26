@@ -3,9 +3,24 @@
   "version": "2.0.1",
   "description": "simple ui components for React",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "prettier": "prettier --write **/*.js",
+    "lint": "npm run eslint",
+    "eslint": "eslint src/**"
   },
-  "keywords": ["ui", "react"],
+  "husky": {
+    "hook": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahim855/dummy-lib-ibraqr"
+  },
+  "keywords": [
+    "ui",
+    "react"
+  ],
   "author": "Ibrahim Qronfli",
   "license": "MIT",
   "devDependencies": {
@@ -13,6 +28,12 @@
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.3",
     "@types/react": "^18.0.15",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.7.1",
     "react": "^18.2.0",
     "rollup": "^2.77.1",
     "rollup-plugin-dts": "^4.2.2",

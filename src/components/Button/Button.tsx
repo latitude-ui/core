@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+
 
 export interface ButtonProps {
   label: string;
-  onClick: () => void,
-}
+  onClick: () => void;
+};
 
 class Button extends React.Component<ButtonProps> {
 
