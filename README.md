@@ -3,7 +3,7 @@
 #### install packages
 
 To install dummy-lib-ibraqr with `npm`:
-    npm i dummy-lib-ibraqr
+    npm install dummy-lib-ibraqr --save
 
 
 ```jsx 
