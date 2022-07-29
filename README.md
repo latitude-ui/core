@@ -7,16 +7,14 @@ To install dummy-lib-ibraqr with `npm`:
 
 
 ```jsx 
-
     import { Button } from "dummy-lib-ibraqr";
-
-
 
     const App = () => <Button label="Click me" />
 
     export default App;
-
 ```
 
 
 ### please contribute
+
+All type of buttons That you may use in you application
