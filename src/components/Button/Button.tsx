@@ -1,5 +1,8 @@
 import React from 'react';
 
+/*
+  we need to support all buttons design (Carbon, Material) 
+*/
 
 export interface ButtonProps {
   label: string;
