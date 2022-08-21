@@ -17,4 +17,4 @@ To install dummy-lib-ibraqr with `npm`:
 
 ### please contribute
 
-All type of buttons That you may use in you application
+All type of buttons that you may use in you application
