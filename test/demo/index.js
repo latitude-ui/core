@@ -1,5 +1,5 @@
 
+import { Button } from "../../src";
 
 
-
-console.log("hello world");
+console.log(Button);

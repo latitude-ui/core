@@ -4,18 +4,20 @@ import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 
 
+
+
 export default {
-    input: 'index.js',
+    input: './test/demo/index.js',
     output: [
         {
-          file: packageJson.main,
-          format: 'cjs',
-          sourcemap: true,
-        },
-        {
-          file: packageJson.module,
+          file: './test/demo/bundle.js',
           format: 'esm',
           sourcemap: true,
         },
+      ],
+      plugins: [
+        resolve(),
+        commonjs(),
+        typescript({tsconfig: 'tsconfig.json'}),
       ],
 };
