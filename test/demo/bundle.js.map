@@ -1,1 +1,0 @@
-{"version":3,"file":"bundle.js","sources":["index.js"],"sourcesContent":["\r\n\r\nalert(\"hello world\");"],"names":[],"mappings":"AAEA,KAAK,CAAC,aAAa,CAAC"}

@@ -4,7 +4,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 import serve from "rollup-plugin-serve";
-
+import livereload from 'rollup-plugin-livereload'
 
 
 export default {
@@ -74,6 +74,7 @@ export default {
           //   const protocol = this.https ? 'https' : 'http'
           //   console.log(`Server listening at ${protocol}://${host}:${address.port}/`)
           // }
-        })
+        }),
+        livereload()
       ],
 };
