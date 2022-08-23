@@ -1,5 +1,3 @@
 
-import { Button } from "../../src";
 
-
-console.log(Button);
+alert("hello world");
