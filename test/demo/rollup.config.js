@@ -1,11 +1,12 @@
 
-import fs from "fs";
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
+import babel from "@rollup/plugin-babel";
+import { nodeResolve } from '@rollup/plugin-node-resolve';
+// development
 import serve from "rollup-plugin-serve";
 import livereload from 'rollup-plugin-livereload'
-
 
 export default {
     input: './test/demo/index.js',
@@ -17,8 +18,14 @@ export default {
         },
       ],
       plugins: [
+        nodeResolve({
+          extensions: [".js"],
+        }),
         resolve(),
         commonjs(),
+        babel({
+          presets: ["@babel/preset-react"],
+        }),    
         typescript({tsconfig: 'tsconfig.json'}),
         serve({
           // Launch in browser (default: false)
@@ -75,6 +82,6 @@ export default {
           //   console.log(`Server listening at ${protocol}://${host}:${address.port}/`)
           // }
         }),
-        livereload()
+        livereload({})
       ],
 };
