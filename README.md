@@ -2,9 +2,9 @@
 
 #### install packages
 
-To install dummy-lib-ibraqr with `npm`:
-    npm install dummy-lib-ibraqr --save
+To install carbon-button with `npm`:
 
+    npm install carbon-button --save
 
 ```jsx 
     import { Button } from "dummy-lib-ibraqr";
