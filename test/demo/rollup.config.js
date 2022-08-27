@@ -1,5 +1,4 @@
 
-import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 import babel from "@rollup/plugin-babel";
@@ -7,6 +6,7 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 // development
 import serve from "rollup-plugin-serve";
 import livereload from 'rollup-plugin-livereload'
+import replace from '@rollup/plugin-replace';
 
 export default {
     input: './test/demo/index.js',
@@ -21,12 +21,14 @@ export default {
         nodeResolve({
           extensions: [".js"],
         }),
-        resolve(),
-        commonjs(),
+        replace({
+          'process.env.NODE_ENV': JSON.stringify( 'development' )
+        }),
         babel({
           presets: ["@babel/preset-react"],
         }),    
         typescript({tsconfig: 'tsconfig.json'}),
+        commonjs(),
         serve({
           // Launch in browser (default: false)
           open: true,

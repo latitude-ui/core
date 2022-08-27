@@ -11,6 +11,10 @@ export interface ButtonProps {
 
 class Button extends React.Component<ButtonProps> {
 
+  componentDidMount() {}
+
+  componentDidUpdate() {}
+
   render() {
     return <button onClick={this.props.onClick}>{this.props.label}</button>
   }

@@ -1,14 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
-
+import { Button } from "../../src";
 
 const App = () => {
 
-    return <h1>Hello world</h1>
+    return <Button onClick={() => alert("ueee")} label="hello world"/>;
 };
 
 
-
-
-
-
+render(<App />, document.querySelector("#root"));
