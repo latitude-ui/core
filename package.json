@@ -1,7 +1,7 @@
 {
-  "name": "dummy-lib-ibraqr",
-  "version": "2.0.2",
-  "description": "simple ui components for React",
+  "name": "carbon-button",
+  "version": "1.0.0",
+  "description": "React ui-button based on the IBM Carbon Design System",
   "scripts": {
     "start": "rollup --config ./test/demo/rollup.config.js --watch",
     "rollup": "rollup -c",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibrahim855/dummy-lib-ibraqr"
+    "url": "git+https://github.com/ibrahim855/carbon-button"
   },
   "keywords": [
     "ui",
@@ -49,14 +49,14 @@
     "typescript": "^4.7.4"
   },
   "bugs": {
-    "url": "https://github.com/ibrahim855/dummy-lib-ibraqr/issues"
+    "url": "https://github.com/ibrahim855/carbon-button/issues"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/ibrahim855/dummy-library#readme",
+  "homepage": "https://github.com/ibrahim855/carbon-button#readme",
   "types": "dist/index.d.ts",
   "peerDependencies": {
     "@emotion/react": "^11.10.0",
