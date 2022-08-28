@@ -18,3 +18,9 @@ To install carbon-button with `npm`:
 ### please contribute
 
 All type of buttons that you may use in you application
+
+
+
+# for Contributors 
+To install carbon-button dependecies type: 
+    npm ci
