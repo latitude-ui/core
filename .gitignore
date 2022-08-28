@@ -4,6 +4,17 @@ dist
 # dependencies
 node_modules
 
+# rollup development configuration
+**bundle.js
+**.map
 
 # snapshot test
 test/__snapshots__
+
+
+
+
+# we actually need only npm-debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
