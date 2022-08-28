@@ -9,11 +9,12 @@
     "rollup": "rollup -c",
     "prettier": "prettier --write **/*.js",
     "lint": "npm run eslint",
-    "eslint": "eslint src/**"
+    "eslint": "eslint src/**",
+    "prepare": "husky install"
   },
   "husky": {
     "hook": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "npm run lint && npm run test"
     }
   },
   "repository": {
