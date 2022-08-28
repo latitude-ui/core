@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React ui-button based on the IBM Carbon Design System",
   "scripts": {
-    "test":"jest",
+    "test": "jest",
     "build": "npm run rollup",
     "start": "rollup --config ./test/demo/rollup.config.js --watch",
     "rollup": "rollup -c",

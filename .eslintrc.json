@@ -19,7 +19,5 @@
         "react",
         "@typescript-eslint"
     ],
-    "rules": {
-        "linebreak-style":"on"
-    }
+    "rules": { }
 }
