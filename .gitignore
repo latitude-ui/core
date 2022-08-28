@@ -1,2 +1,9 @@
+# production folder
 dist
+
+# dependencies
 node_modules
+
+
+# snapshot test
+test/__snapshots__
