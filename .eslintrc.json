@@ -19,5 +19,9 @@
         "react",
         "@typescript-eslint"
     ],
-    "rules": { }
+    "rules": {
+        "object-curly-spacing": "off",
+        "linebreak-style":"off",
+        "require-jsdoc":"off"
+    }
 }
