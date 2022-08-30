@@ -26,9 +26,11 @@ export default [
       resolve(),
       replace({
         'process.env.NODE_ENV': JSON.stringify( 'development' ),
+        'preventAssignment': true,
       }),
       babel({
         presets: ['@babel/preset-react'],
+        babelHelpers: 'bundled',
       }),
       commonjs(),
       typescript({tsconfig: './tsconfig.json'}),
