@@ -1,3 +1,4 @@
+/* eslint-disable */
 import renderer from 'react-test-renderer';
 import Link from "../src/Link";
 
