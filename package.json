@@ -17,6 +17,9 @@
       "pre-commit": "npm run lint && npm run test"
     }
   },
+  "lint-staged": {
+    "**/*": "npx prettier --write --ignore-unknown"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ibrahim855/carbon-button"
