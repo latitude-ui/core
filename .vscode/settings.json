@@ -1,0 +1,6 @@
+{
+    "prettier.configPath": "./prettierrc.yaml",
+    "prettier.singleQuote": true,
+    "prettier.requireConfig": true,
+    "prettier.bracketSameLine": true
+}
