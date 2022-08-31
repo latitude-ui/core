@@ -1,6 +1,6 @@
 {
   "name": "carbon-button",
-  "version": "1.0.0-beta.6",
+  "version": "1.0.0-beta.8",
   "description": "React ui-button based on the IBM Carbon Design System",
   "scripts": {
     "test": "jest",
