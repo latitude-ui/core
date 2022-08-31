@@ -1,4 +1,5 @@
 import React from 'react';
+// import { css } from '@emotion/react';
 
 /*
   we need to support all buttons design ( Carbon, Material )
@@ -16,7 +17,14 @@ class Button extends React.Component<ButtonProps> {
   componentDidUpdate() {}
 
   render() {
-    return <button onClick={this.props.onClick}>{this.props.label}</button>;
+    return <button style={{
+      backgroundColor: 'hsl(210deg 10% 10%)',
+      color: '#fff',
+      padding: '20px',
+      fontSize: '16px',
+      fontWeight: '500',
+    }}
+    onClick={this.props.onClick}>{this.props.label}</button>;
   }
 }
 
