@@ -1,6 +1,6 @@
 {
   "name": "carbon-button",
-  "version": "1.0.1",
+  "version": "1.0.0-beta.5",
   "description": "React ui-button based on the IBM Carbon Design System",
   "scripts": {
     "test": "jest",
@@ -11,6 +11,9 @@
     "lint": "npm run eslint",
     "eslint": "eslint src/** --fix",
     "prepare": "husky install"
+  },
+  "babel": {
+    "extends": "./configs/.babelrc"
   },
   "husky": {
     "hook": {
@@ -31,6 +34,9 @@
   "author": "Ibrahim Qronfli",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+    "@babel/plugin-transform-runtime": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
     "@babel/preset-react": "^7.18.6",
     "@rollup/plugin-babel": "^5.3.1",

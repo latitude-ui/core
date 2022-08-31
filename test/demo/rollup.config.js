@@ -32,7 +32,8 @@ export default {
     }),
     babel({
       presets: ['@babel/preset-react'],
-      babelHelpers: 'bundled',
+      plugins: ['@babel/plugin-transform-runtime'],
+      babelHelpers: 'runtime',
     }),
     typescript({tsconfig: 'tsconfig.json'}),
     commonjs(),
@@ -91,6 +92,6 @@ export default {
       //   console.log(`Server listening at ${protocol}://${host}:${address.port}/`)
       // }
     }),
-    livereload({}),
+    livereload({ watch: './test/demo'}),
   ],
 };

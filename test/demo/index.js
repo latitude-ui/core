@@ -1,13 +1,16 @@
 /* eslint-disable  */
 import React from 'react'
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { Button } from '../../src';
 
-// const App = () => {
 
-//     return <Button onClick={() => alert('ueee')} label='hello world'/>;
-// };
+const container =  document.querySelector("#root");
+const root = createRoot(container);
 
-    var i = 1;
+const App = () => {
 
-console.log("hello world");
+    return <Button onClick={() => alert('eee')} label='helloss sssdworssssssssld'/>;
+};
+
+
+root.render(<App />);
