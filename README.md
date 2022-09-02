@@ -27,7 +27,9 @@ To install carbon-button dependecies type:
 
 # Testing
 Testing available with jest, to run test use `npm`:
-    npm run test
+```sh
+npm run test
+```
 
 
 # documentation
