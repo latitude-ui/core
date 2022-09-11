@@ -21,3 +21,9 @@ npm install carbon-button
 ```sh
 npm run test
 ```
+
+## goals
+* **Lightweight IBM Carbon Design Implementation in React**
+    * Modal 
+    * Buttons
+    * Headlines
