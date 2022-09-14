@@ -18,7 +18,6 @@ For now no rule has been set for **contributions** contact me if you want to con
 * Learning, learning, learning.
 
 ## goals
-* **Lightweight IBM Carbon Design Implementation in React**
     * Modal 
     * Buttons
     * Headlines
