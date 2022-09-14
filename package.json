@@ -1,7 +1,7 @@
 {
   "name": "latitude-ui-lightweight",
   "version": "1.0.0-beta.10",
-  "description": "React ui-button based on the IBM Carbon Design System",
+  "description": "Latitude system-design lightweight implementation based on react library",
   "scripts": {
     "test": "jest",
     "build": "npm run rollup",
