@@ -1,8 +1,12 @@
 ### lightweight implementation of the:   
 > Latitude Design System for digital experiences
 
+
 <img src="https://miro.medium.com/max/700/1*iizkdBeln4J_n9XccVckDQ.jpeg" height="400" width="600">
 
+
+## Contributors
+For now no rule has been set for **contributions** contact me if you want to contribute.
 
 
 ## Why?
