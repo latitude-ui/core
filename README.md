@@ -1,6 +1,9 @@
-# Carbon-button 
+### lightweight implementation of the:   
+> Latitude Design System for digital experiences
 
-> IBM Carbon Design System for Digital Experiences
+<img src="https://miro.medium.com/max/700/1*iizkdBeln4J_n9XccVckDQ.jpeg" height="400" width="600">
+
+
 
 ## Why?
 * this library is made for learning purposes.
@@ -9,18 +12,6 @@
 * Configuration file and production ready code.
 * Never built a library, and I'm considering to train a bit before contributing to an OpenSource one.
 * Learning, learning, learning.
-
-## Getting Started
-Install with npm:
-
-```sh
-npm install carbon-button
-```
-
-#### Testing
-```sh
-npm run test
-```
 
 ## goals
 * **Lightweight IBM Carbon Design Implementation in React**
