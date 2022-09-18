@@ -1,9 +1,5 @@
 import React from 'react';
-// import { css } from '@emotion/react';
 
-/*
-  we need to support all buttons design ( Carbon, Material )
-*/
 
 export interface ButtonProps {
   label: string;
