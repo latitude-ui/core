@@ -1,7 +1,7 @@
 {
-  "name": "carbon-button",
-  "version": "1.0.0-beta.8",
-  "description": "React ui-button based on the IBM Carbon Design System",
+  "name": "latitude-ui-lightweight",
+  "version": "1.0.0-beta.10",
+  "description": "Latitude system-design lightweight implementation based on react library",
   "scripts": {
     "test": "jest",
     "build": "npm run rollup",
@@ -44,6 +44,7 @@
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^4.0.0",
     "@rollup/plugin-typescript": "^8.3.3",
+    "@testing-library/react": "^13.4.0",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.31.0",

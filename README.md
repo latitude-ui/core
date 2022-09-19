@@ -1,6 +1,13 @@
-# Carbon-button 
+### lightweight implementation of the:   
+> Latitude Design System for digital experiences
 
-> IBM Carbon Design System for Digital Experiences
+
+<img src="https://miro.medium.com/max/700/1*iizkdBeln4J_n9XccVckDQ.jpeg" height="400" width="600">
+
+
+## Contributors
+For now no rule has been set for **contributions** contact me if you want to contribute.
+
 
 ## Why?
 * this library is made for learning purposes.
@@ -10,14 +17,7 @@
 * Never built a library, and I'm considering to train a bit before contributing to an OpenSource one.
 * Learning, learning, learning.
 
-## Getting Started
-Install with npm:
-
-```sh
-npm install carbon-button
-```
-
-#### Testing
-```sh
-npm run test
-```
+## goals
+    * Modal 
+    * Buttons
+    * Headlines
