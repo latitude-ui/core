@@ -21,3 +21,4 @@ For now no rule has been set for **contributions** contact me if you want to con
     * Modal 
     * Buttons
     * Headlines
+    * Typography
