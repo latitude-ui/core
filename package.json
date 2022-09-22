@@ -1,17 +1,27 @@
 {
   "name": "latitude-ui-lightweight",
   "version": "1.0.0-beta.10",
+  "author": "Ibrahim Qronfli",
   "description": "Latitude system-design lightweight implementation based on react library",
-  "scripts": {
-    "test": "jest",
-    "build": "npm run rollup",
-    "start": "rollup --config ./test/demo/rollup.config.js --watch",
-    "rollup": "rollup -c",
-    "prettier": "prettier --write **/*.js",
-    "lint": "npm run eslint",
-    "eslint": "eslint src/** --fix",
-    "prepare": "husky install"
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahim855/carbon-button"
   },
+  "homepage": "https://github.com/ibrahim855/carbon-button#readme",
+  "bugs": {
+    "url": "https://github.com/ibrahim855/carbon-button/issues"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "babel": {
     "extends": "./configs/.babelrc"
   },
@@ -23,16 +33,16 @@
   "lint-staged": {
     "**/*": "npx prettier --write --ignore-unknown"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ibrahim855/carbon-button"
+  "scripts": {
+    "test": "jest",
+    "build": "npm run rollup",
+    "start": "rollup --config ./test/demo/rollup.config.js --watch",
+    "rollup": "rollup -c",
+    "prettier": "prettier --write **/*.js",
+    "lint": "npm run eslint",
+    "eslint": "eslint src/** --fix",
+    "prepare": "husky install"
   },
-  "keywords": [
-    "ui",
-    "react"
-  ],
-  "author": "Ibrahim Qronfli",
-  "license": "MIT",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
@@ -66,16 +76,6 @@
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },
-  "bugs": {
-    "url": "https://github.com/ibrahim855/carbon-button/issues"
-  },
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "files": [
-    "dist"
-  ],
-  "homepage": "https://github.com/ibrahim855/carbon-button#readme",
-  "types": "dist/index.d.ts",
   "peerDependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
