@@ -1,4 +1,4 @@
-import { createElement } from 'react';
+import React, { createElement } from 'react';
 
 
 type headlines = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
@@ -15,11 +15,9 @@ const Headline = (props: {
     children: string;
     type: headlines;
 }) => {
-//   const { children: textField } = props;
+  const {type, children: textField} = props;
 
-  console.log('render headline1');
-
-  return null;
+ return React.createElement(type, {}, textField);
 };
 
 
@@ -42,7 +40,7 @@ const Typography = (props: TypographyProps) => {
   }
 
   /* eslint-disable */
-  return createElement(Typo, {children, type});
+  return createElement(Typo, { children, type });
 };
 
 export default Typography;
