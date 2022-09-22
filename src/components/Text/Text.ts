@@ -26,7 +26,7 @@ const Body = (props: {
   const { children } = props;
 
   return React.createElement('p', {}, children);
-}
+};
 
 
 const Text = (props: TypographyProps) => {
