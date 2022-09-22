@@ -12,16 +12,24 @@ export interface TypographyProps {
 
 
 const Headline = (props: {
-    children: string;
+    children: React.ReactNode;
     type: headlines;
 }) => {
   const {type, children: textField} = props;
 
- return React.createElement(type, {}, textField);
+  return React.createElement(type, {}, textField);
 };
 
+const Body = (props: {
+  children: React.ReactNode
+}) => {
+  const { children } = props;
 
-const Typography = (props: TypographyProps) => {
+  return React.createElement('p', {}, children);
+}
+
+
+const Text = (props: TypographyProps) => {
   const { type, children } = props;
 
   let Typo = null;
@@ -35,6 +43,10 @@ const Typography = (props: TypographyProps) => {
     case 'h6':
       Typo = Headline;
       break;
+    case 'body1':
+    case 'body2':
+      Typo = Body;
+      break;
     default:
       throw new Error('something went wrong');
   }
@@ -43,4 +55,4 @@ const Typography = (props: TypographyProps) => {
   return createElement(Typo, { children, type });
 };
 
-export default Typography;
+export default Text;

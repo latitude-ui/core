@@ -1,7 +1,7 @@
 /* eslint-disable  */
 import React from 'react'
 import { createRoot } from 'react-dom/client';
-import { Button, Radio, Input, Typography } from '../../src';
+import { Button, Radio, Input, Text } from '../../src';
 
 
 const container =  document.querySelector("#root");
@@ -19,12 +19,13 @@ const root = createRoot(container);
 const App = () => {
 
     return <>
-        <Typography type="h1">Headline 1</Typography>
-        <Typography type="h2">Headline 2</Typography>
-        <Typography type="h3">Headline 3</Typography>
-        <Typography type="h4">Headline 4</Typography>
-        <Typography type="h5">Headline 5</Typography>
-        <Typography type="h6">Headline 6</Typography>
+        <Text type="h1">Headline 1</Text>
+        <Text type="h2">Headline 2</Text>
+        <Text type="h3">Headline 3</Text>
+        <Text type="h4">Headline 4</Text>
+        <Text type="h5">Headline 5</Text>
+        <Text type="h6">Headline 6</Text>
+        <Text type="body1">body 1</Text>
     </>
 }
 
