@@ -5,18 +5,16 @@ import { LatitudeThemeContext } from './Theming/theme';
 
 
 const useStyle = () => {
-  const lateituteCtx = useContext(LatitudeThemeContext);
+  const latitudeCtx = useContext(LatitudeThemeContext);
 
   return {
-    ...lateituteCtx,
+    ...latitudeCtx,
   };
 };
 
 
 function makeStyle() {
   const theming = useStyle();
-
-  console.log(theming);
 }
 
 export default makeStyle;
