@@ -18,3 +18,4 @@ For now no rule has been set for **contributions** contact me if you want to con
 * Configuration file and production ready code.
 * Never built a library, and I'm considering to train a bit before contributing to an OpenSource one.
 * Learning, learning, learning.
+* making style consistent 
